@@ -54,34 +54,34 @@ class App extends Component {
 
 App.defaultProps = {
   landing: {
-    circleName: 'Facebook Developer Circles Guadalajara',
+    circleName: 'Facebook Developer Circles Stream Fest',
     logo: 'https://s3.amazonaws.com/chewiekie/img/logo-guadalajara.png',
     background: 'https://s3.amazonaws.com/chewiekie/img/devc-bg.png',
-    groupUrl: 'https://www.facebook.com/groups/DevCGuadalajara/',
-    email: 'devcgdl@gmail.com'
+    groupUrl: 'https://www.facebook.com/groups/DevCBogota/',
+    email: 'devcbogota@gmail.com'
   },
   event: {
-    title: 'Reunión Febrero: GraphQL / Messenger Platform',
-    description: 'Acompáñanos este 28 de Febrero en Centraal Guadalajara a partir de las 7:00 P.M. para nuestra reunión mensual donde hablaremos de los principales productos y tecnologías de código libre de Facebook.',
+    title: 'DevC Stream Fest 2019',
+    description: 'Acompáñanos al Primer Festival de Streaming de los Facebook Developers Circles en América latina.',
     whatIs: 'Developer Circles de Facebook es un programa diseñado para crear comunidades de desarrolladores organizadas localmente. El fin de estas comunidades es informar y proporcionar un foro para conversar y compartir conocimientos sobre los temas de mayor prioridad para los desarrolladores en un mercado concreto.',
     venue: {
-      name: 'Centraal Guadalajara',
-      address: 'Av. Ignacio Luis Vallarta 3300, 44690 Guadalajara, Jal.',
+      name: 'Festival Online',
+      address: 'LATAM',
       lat: 20.6751803,
       lng: -103.3927516
     },
-    date: '2018-02-28 07:00:00 pm',
-    endRsvp: '2018-02-28 04:00:00 pm',
+    date: '2019-12-10 07:00:00 pm',
+    endRsvp: '2019-12-18 04:00:00 pm',
     buttonText: '¡Participar!',
     messageRsvp: 'Por el momento no es posible registrar más lugares para el evento, nuestro cupo máximo ha sido alcanzado.',
     mailChimpEvent: '//facebook.us16.list-manage.com/subscribe/post?u=b7544c7f63148ada4e7f5893b&amp;id=7037202809'
   },
   agenda: [
-    {time: '7:00PM ', activity: 'Registro', attend: 'DEVC GDL'},
-    {time: '7:30PM', activity: 'Bienvenida', attend: 'DEVC GDL'},
-    {time: '7:40PM', activity: '¿Quién es ese GraphQL del que todos mis amigos están hablando?', attend: 'Fer Perales'},
-    {time: '8:20PM', activity: 'Jugando con Messenger API', attend: 'Zura Guerra'},
-    {time: '9:00PM', activity: 'Networking', attend: 'Comunidad'},
+    {time: '7:00PM ', activity: 'Registro', attend: 'DEVC LATAM'},
+    {time: '7:30PM', activity: 'Bienvenida', attend: 'DEVC LATAM'},
+    {time: '7:40PM', activity: 'Tema1', attend: 'Oscar Barajas'},
+    {time: '8:20PM', activity: 'Tema2', attend: 'Piero Divasto'},
+    {time: '9:00PM', activity: 'Tema3', attend: 'Leo Camacho'},
   ],
   speakers: [
   {
@@ -132,7 +132,7 @@ App.defaultProps = {
   description: 'Complete bio or description',
   social: [
     {name: 'twitter', url: 'https://www.facebook.com/leslysandra'},
-    {name: 'linkedin', url: 'https://www.linkedin.com/in//'}
+    {name: 'medium', url: 'https://medium.com/@leslysandra'}
   ], // Accept any Social Network in FontAwesome Icons 
 },
 
