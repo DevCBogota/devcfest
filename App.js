@@ -128,7 +128,7 @@ App.defaultProps = {
   photo: '<URL_IMG>', 
   bio: 'Lesly Zerna Bio',
   jobTitle: 'Google Developer Expert',
-  conferenceTitle: 'Artificial Intelligence in Startups & Business',
+  conferenceTitle: 'Creando una Red Neuronal con PyTorch',
   description: 'Complete bio or description',
   social: [
     {name: 'twitter', url: 'https://www.facebook.com/leslysandra'},
